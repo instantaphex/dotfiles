@@ -19,8 +19,10 @@ Plug 'morhetz/gruvbox'
 call plug#end()
 
 colorscheme gruvbox
-
-"""""""""""" GENERAL SETTINGS """"""""""""
+set background=dark " use dark mode
+" set background=light " uncomment to use light mode
+ 
+""""""""""""" GENERAL SETTINGS """"""""""""
 set relativenumber
 set expandtab
 set shiftwidth=2
